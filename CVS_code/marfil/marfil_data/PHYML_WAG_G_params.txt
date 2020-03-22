@@ -1,0 +1,2 @@
+cellulases_short_aln.phy
+/export/internal_use/marfil/CVS_code/marfil/marfil_data/PHYML_WAG_G_params.txt
