@@ -1,4 +1,5 @@
-This folder should contain the following directories:
+This folder should contain the following directories, 
+pointed to from CVS_code/marfil/phyTools.pm :
 
 BLOCKS3.7_software
 CUD
