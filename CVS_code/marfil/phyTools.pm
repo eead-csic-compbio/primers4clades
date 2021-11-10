@@ -101,11 +101,11 @@ sub set_phyTools_env
 "10090.mitochondrion:mitochondrion Mus musculus,gbrod.spsum,10090:Mus musculus,gbrod.spsum,102126:Pseudanabaena sp. PCC 6903,gbbct.spsum,10360:Human herpesvirus 5,gbvrl.spsum,10710:Enterobacteria phage lambda,gbphg.spsum,11676:Human immunodeficiency virus 1,gbvrl.spsum,10566:Human papillomavirus,gbvrl.spsum,118965:Bacillus subtilis,gbbct.spsum,188937:Methanosarcina acetivorans C2A,gbbct.spsum,224911:Bradyrhizobium japonicum USDA 110,gbbct.spsum,239758:SARS coronavirus Taiwan TC3,gbvrl.spsum,11908:Human T-lymphotropic virus,gbvrl.spsum,273057:Sulfolobus solfataricus P2,gbbct.spsum,311553.chloroplast:chloroplast Oryza sativa,gbpln.spsum,311553.mitochondrion:mitochondrion Oryza sativa,gbpln.spsum,311553:Oryza sativa,gbpln.spsum,32608:Human adenovirus type 2,gbvrl.spsum,3702.chloroplast:chloroplast Arabidopsis thaliana,gbpln.spsum,3702.mitochondrion:mitochondrion Arabidopsis thaliana,gbpln.spsum,3702:Arabidopsis thaliana,gbpln.spsum,5270:Ustilago maydis,gbpln.spsum,273507:Phanerochaete chrysosporium,gbpln.spsum,57667:Simian-Human immunodeficiency virus,gbvrl.spsum,6239.mitochondrion:mitochondrion Caenorhabditis elegans,gbinv.spsum,6239:Caenorhabditis elegans,gbinv.spsum,7227.mitochondrion:mitochondrion Drosophila melanogaster,gbinv.spsum,7227:Drosophila melanogaster,gbinv.spsum,83331:Mycobacterium tuberculosis CDC1551,gbbct.spsum,83333:Escherichia coli K12,gbbct.spsum,208524.mitochondrion:mitochondrion Gallus gallus,gbvrt.spsum,208526:Gallus gallus,gbvrt.spsum,9606.mitochondrion:mitochondrion Homo sapiens,gbpri.spsum,9606:Homo sapiens,gbpri.spsum,9615.mitochondrion:mitochondrion Canis familiaris,gbmam.spsum,9615:Canis familiaris,gbmam.spsum,9913.mitochondrion:mitochondrion Bos taurus,gbmam.spsum,297284:Bos taurus,gbmam.spsum"
 	} # do not remove	
    
-   if( ! defined($ENV{"DBSERVER"}) ) { $ENV{"DBSERVER"} = "132.248.34.219"; }
-   if( ! defined($ENV{"DBNAME"}) ) { $ENV{"DBNAME"} = "marfil"; }
-   if( ! defined($ENV{"DBARCH"}) ) { $ENV{"DBARCH"} = "mysql"; }
-   if( ! defined($ENV{"DBUSER"}) ) { $ENV{"DBUSER"} = "marfil"; }
-   if( ! defined($ENV{"DBPASS"}) ) { $ENV{"DBPASS"} = "m4rf1l"; } # maya pswd m4rf1lm4y4
+   if( ! defined($ENV{"DBSERVER"}) ) { $ENV{"DBSERVER"} = ""; }
+   if( ! defined($ENV{"DBNAME"}) ) { $ENV{"DBNAME"} = ""; }
+   if( ! defined($ENV{"DBARCH"}) ) { $ENV{"DBARCH"} = ""; }
+   if( ! defined($ENV{"DBUSER"}) ) { $ENV{"DBUSER"} = ""; }
+   if( ! defined($ENV{"DBPASS"}) ) { $ENV{"DBPASS"} = ""; } 
    if( ! defined($ENV{"BLASTNDBPATH"}) ) { $ENV{"BLASTNDBPATH"} = $ENV{'MARFIL'}."moreno_blastnDB/"; }
    if( ! defined($ENV{"IMG_GENOMES_FASTA_DIR"}) ) { $ENV{"IMG_GENOMES_FASTA_DIR"} = $ENV{'MARFIL'}."IMG_GENOMES/"; } # IMG draft genomes concatenated for formatDB
    if( ! defined($ENV{"GO_DIR"}) ) { $ENV{"GO_DIR"} = $ENV{'MARFIL'}."GO/GO_ANNOTATIONS/"; }
@@ -450,7 +450,7 @@ sub extract_codon_freqs_from_fasta2spsumfile
 sub run_codehop
 {
 	# ojo, codehop tiene que correr en el directorio examples a huevo
-	# user table puede ser m·s de una tabla separada por comas: tabla1,tabla2,...
+	# user table puede ser m√°s de una tabla separada por comas: tabla1,tabla2,...
 
    	my($infile, $ref_AAFasta, $user_table, $user_codehopT, $user_CUT_path ) = @_; #CUT=codon usage table
   
