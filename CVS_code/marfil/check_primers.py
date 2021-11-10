@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2.7
 
 # program made using code from Amplicon (Simon Neil Jarman, http://sourceforge.net/projects/amplicon/)
 # Adapted by Bruno Contreras-Moreira
