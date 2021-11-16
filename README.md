@@ -4,11 +4,11 @@ Primers4clades provides a fully automated pipeline for the design of PCR primers
 
 ## Motivation
 
-This repo contains the source code of the Primers4clades server, which has been running since 2009 on two mirrors: http://maya.ccg.unam.mx/primers4clades and http://floresta.eead.csic.es/primers4clades. A tutorial is available at http://maya.ccg.unam.mx/primers4clades/tutorial.html
+This repo contains the source code of Primers4clades, which ran as a Web server from 2009 to 2021 on http://maya.ccg.unam.mx/primers4clades and http://floresta.eead.csic.es/primers4clades, and can still be used as a Docker container at https://hub.docker.com/repository/docker/csicunam/primers4clades
 
 ## Credits
 
-Primers4clades (primers for clades) is developed and maintained by Pablo Vinuesa at CCG/UNAM (Mexico) and Bruno Contreras-Moreira at EEAD/CSIC (Spain), with technical support provided by Romualdo Zayas-Laguna and Victor del Moral. This project is funded by grant DGAPA IN201806-2 from DGAPA/PAPIIT-UNAM, grant P1-60071 from CONACyT-Mexico, ARAID and by grant 200720I038 from CSIC. If you use this resource we ask you to cite the main paper describing this work:
+Primers4clades (primers for clades) was developed and maintained by Pablo Vinuesa at CCG/UNAM (Mexico) and Bruno Contreras-Moreira at EEAD/CSIC (Spain), with technical support provided by Romualdo Zayas-Laguna and Victor del Moral. This project is funded by grant DGAPA IN201806-2 from DGAPA/PAPIIT-UNAM, grant P1-60071 from CONACyT-Mexico, ARAID and by grant 200720I038 from CSIC. If you use this resource we ask you to cite the main paper describing this work:
 
 Contreras-Moreira, B., Sachman-Ruiz, B., Figueroa-Palacios, I., and Vinuesa, P. (2009). primers4clades: a web server that uses phylogenetic trees to design lineage-specific PCR primers for metagenomic and diversity studies. Nucl.Acids Res., 37(Web Server issue):W95-W100 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2703966
 
