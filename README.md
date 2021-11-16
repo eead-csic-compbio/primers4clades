@@ -4,7 +4,7 @@ Primers4clades provides a fully automated pipeline for the design of PCR primers
 
 ## Motivation
 
-This repo contains the source code of Primers4clades, which ran as a Web server from 2009 to 2021 on http://maya.ccg.unam.mx/primers4clades and http://floresta.eead.csic.es/primers4clades, and can still be used as a Docker container at https://hub.docker.com/repository/docker/csicunam/primers4clades
+This repo contains the source code of Primers4clades, which ran as a Web server from 2009 to 2021 on http://maya.ccg.unam.mx/primers4clades and http://floresta.eead.csic.es/primers4clades, and can still be used as a Docker container at https://hub.docker.com/r/csicunam/primers4clades
 
 ## Credits
 
